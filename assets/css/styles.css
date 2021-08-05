@@ -1,0 +1,76 @@
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.e-shop-navbar {
+  background-color: #fff;
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
+  border-bottom: 1px solid #dfdfdf;
+}
+
+.e-search-header {
+  background-color: blue;
+  min-width: 450px;
+  max-width: 500px;
+  overflow: hidden;
+}
+
+.hero-promos {
+  background-color: rebeccapurple;
+  min-height: 60vh;
+  padding: 2rem;
+}
+
+.swiper-promos {
+  background-color: orange;
+  width: 100%;
+}
+
+.swiper-browser-category {
+  margin: 3rem 0;
+}
+
+.swiper-browser-category .swiper-slide {
+  height: 250px;
+  background-color: pink;
+  border-radius: 0.25rem;
+}
+
+.hero-promos-content {
+  display: grid;
+  grid-template-columns: 1fr 0.6fr;
+  gap: 1rem;
+}
+
+.group-slider {
+  padding: 2rem 0;
+}
+
+.group-slider__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.group-slider__header--left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.group-slider__content {
+  padding: 2rem 0;
+}
+
+.top-offers-today  {
+  display: none !important;
+  visibility: hidden;
+  background-color: red;
+}
+
+.top-offers-today__content {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
